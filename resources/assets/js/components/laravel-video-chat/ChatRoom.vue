@@ -170,7 +170,7 @@
                     .here((users) => {
                         console.log(users)
                     })
-                    .listen('\\PhpJunior\\LaravelVideoChat\\Events\\NewConversationMessage', (data) => {
+                    .listen('\\Wqqas1\\LaravelVideoChat\\Events\\NewConversationMessage', (data) => {
                         var self = this;
                         if ( data.files.length > 0 ){
                             $.each( data.files , function( key, value ) {
@@ -179,7 +179,7 @@
                         }
                         this.messages.push(data);
                     })
-                    .listen('\\PhpJunior\\LaravelVideoChat\\Events\\VideoChatStart', (data) => {
+                    .listen('\\Wqqas1\\LaravelVideoChat\\Events\\VideoChatStart', (data) => {
 
                         if(data.to != this.currentUser.id){
                             return;

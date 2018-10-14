@@ -55420,7 +55420,7 @@ var candidateDidReceived = false;
 
             Echo.join(this.channel).here(function (users) {
                 console.log(users);
-            }).listen('\\PhpJunior\\LaravelVideoChat\\Events\\NewConversationMessage', function (data) {
+            }).listen('\\Wqqas1\\LaravelVideoChat\\Events\\NewConversationMessage', function (data) {
                 var self = _this2;
                 if (data.files.length > 0) {
                     $.each(data.files, function (key, value) {
@@ -55428,7 +55428,7 @@ var candidateDidReceived = false;
                     });
                 }
                 _this2.messages.push(data);
-            }).listen('\\PhpJunior\\LaravelVideoChat\\Events\\VideoChatStart', function (data) {
+            }).listen('\\Wqqas1\\LaravelVideoChat\\Events\\VideoChatStart', function (data) {
 
                 if (data.to != _this2.currentUser.id) {
                     return;
@@ -56277,7 +56277,7 @@ function prepareUpload(event) {
 
             Echo.join(this.channel).here(function (users) {
                 console.log(users);
-            }).listen('\\PhpJunior\\LaravelVideoChat\\Events\\NewGroupConversationMessage', function (data) {
+            }).listen('\\Wqqas1\\LaravelVideoChat\\Events\\NewGroupConversationMessage', function (data) {
                 var self = _this2;
                 if (data.files.length > 0) {
                     $.each(data.files, function (key, value) {

@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use PhpJunior\LaravelVideoChat\Facades\Chat;
-use PhpJunior\LaravelVideoChat\Models\File\File;
+use Wqqas1\LaravelVideoChat\Facades\Chat;
+use Wqqas1\LaravelVideoChat\Models\File\File;
 
 class HomeController extends Controller
 {

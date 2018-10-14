@@ -3,8 +3,8 @@
 use App\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use PhpJunior\LaravelVideoChat\Models\Conversation\Conversation;
-use PhpJunior\LaravelVideoChat\Models\Group\Conversation\GroupConversation;
+use Wqqas1\LaravelVideoChat\Models\Conversation\Conversation;
+use Wqqas1\LaravelVideoChat\Models\Group\Conversation\GroupConversation;
 
 class UsersTableSeeder extends Seeder
 {

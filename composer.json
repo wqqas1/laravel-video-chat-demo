@@ -9,7 +9,7 @@
         "fideloper/proxy": "~3.3",
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0",
-        "php-junior/laravel-video-chat": "^1.0"
+        "wqqas1/laravel-video-chat": "^1.0"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
