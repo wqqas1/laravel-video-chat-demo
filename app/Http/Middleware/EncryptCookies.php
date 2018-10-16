@@ -11,6 +11,12 @@ class EncryptCookies extends Middleware
      *
      * @var array
      */
+    /**
+    * Indicates if cookies should be serialized.
+    *
+    * @var bool
+    */
+    protected static $serialize = false;
     protected $except = [
         //
     ];
