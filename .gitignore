@@ -15,7 +15,6 @@ npm-debug.log
 yarn-error.log
 .env
 dump.rdb
-storage/
 yarn.lock
 package-lock.json
 

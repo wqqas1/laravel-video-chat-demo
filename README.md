@@ -8,6 +8,10 @@ Install the JavaScript dependencies:
     npm install --save laravel-echo js-cookie vue-timeago socket.io socket.io-client webrtc-adapter vue-chat-scroll
     laravel-echo-server init
 ```
+To start laravel-echo-server
+````javascript
+    laravel-echo-server start
+````
 
 ```php
     cp .env.example .env
