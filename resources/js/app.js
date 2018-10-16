@@ -28,7 +28,7 @@ Vue.use(VueTimeago, {
     locale: 'en-US',
     locales: {
         // you will need json-loader in webpack 1
-        'en-US': require('vue-timeago/locales/en-US.json')
+        'en-US': require('date-fns/locale/en')
     }
 })
 
