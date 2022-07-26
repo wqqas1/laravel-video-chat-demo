@@ -22,7 +22,7 @@
     "dependencies": {
         "js-cookie": "^2.2.0",
         "laravel-echo": "^1.4.0",
-        "socket.io": "^2.1.1",
+        "socket.io": "^4.5.1",
         "socket.io-client": "^2.1.1",
         "vue-chat-scroll": "^1.3.3",
         "vue-timeago": "^5.0.0",
